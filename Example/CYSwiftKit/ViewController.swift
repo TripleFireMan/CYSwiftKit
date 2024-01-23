@@ -25,11 +25,8 @@ class ViewController: UIViewController {
         lbl.setClick(0, MCEmptyClosure({
             print(12333333)
         }))
-        
         lbl.addGestureRecognizer(UITapGestureRecognizer.init(target: self, action: #selector(self.sss(_:))))
 
-        
-        
         // Do any additional setup after loading the view, typically from a nib.
     }
     @objc func sss(_ sender:UIGestureRecognizer){
