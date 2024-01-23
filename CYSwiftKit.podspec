@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'CYSwiftKit'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'A short description of CYSwiftKit.'
 
 # This description is used to generate tags and improve search results.
@@ -21,14 +21,14 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/成焱/CYSwiftKit'
+  s.homepage         = 'https://github.com/TripleFireMan/CYSwiftKit'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { '成焱' => 'ab364743113@126.com' }
-  s.source           = { :git => 'https://github.com/成焱/CYSwiftKit.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/TripleFireMan/CYSwiftKit.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '10.0'
+  s.ios.deployment_target = '11.0'
 
   s.source_files = 'CYSwiftKit/Classes/**/*'
   
@@ -39,4 +39,6 @@ TODO: Add long description of the pod here.
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
+  s.dependency 'HandyJSON', '~> 5.0.2'
+  s.dependency 'SnapKit', '~> 5.0.1'
 end

@@ -1,0 +1,6 @@
+framework module CYSwiftKit {
+  umbrella header "CYSwiftKit-umbrella.h"
+
+  export *
+  module * { export * }
+}

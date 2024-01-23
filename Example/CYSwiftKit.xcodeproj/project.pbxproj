@@ -6,29 +6,33 @@
 	objectVersion = 46;
 	objects = {
 
+/* Begin PBXAggregateTarget section */
+		4C1F01692B5E66D50060351E /* package */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 4C1F016A2B5E66D50060351E /* Build configuration list for PBXAggregateTarget "package" */;
+			buildPhases = (
+				4C1F016E2B5E66E90060351E /* ShellScript */,
+			);
+			dependencies = (
+			);
+			name = package;
+			productName = package;
+		};
+/* End PBXAggregateTarget section */
+
 /* Begin PBXBuildFile section */
-		1E77E7929E405400218DC794 /* Pods_CYSwiftKit_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64413E35CEB8BFCA8852DDA1 /* Pods_CYSwiftKit_Tests.framework */; };
+		4C1F01842B5E6E1C0060351E /* TT.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C1F01832B5E6E1C0060351E /* TT.swift */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
-		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
 		7209B40A81AC8C95874C46AC /* Pods_CYSwiftKit_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1D6F38A66054D1B1563E337 /* Pods_CYSwiftKit_Example.framework */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		607FACE61AFB9204008FA782 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 607FACC81AFB9204008FA782 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 607FACCF1AFB9204008FA782;
-			remoteInfo = CYSwiftKit;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
-		3C00B7775368023B6C1B33CD /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		3C00B7775368023B6C1B33CD /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		4C1F01832B5E6E1C0060351E /* TT.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TT.swift; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* CYSwiftKit_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CYSwiftKit_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -36,15 +40,12 @@
 		607FACDA1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		607FACDC1AFB9204008FA782 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		607FACDF1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		607FACE51AFB9204008FA782 /* CYSwiftKit_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CYSwiftKit_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		64413E35CEB8BFCA8852DDA1 /* Pods_CYSwiftKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CYSwiftKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		70A5B2E834136D62354FF292 /* Pods-CYSwiftKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CYSwiftKit_Example.release.xcconfig"; path = "Target Support Files/Pods-CYSwiftKit_Example/Pods-CYSwiftKit_Example.release.xcconfig"; sourceTree = "<group>"; };
 		7E548C3A1969D4864F145D8E /* Pods-CYSwiftKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CYSwiftKit_Tests.release.xcconfig"; path = "Target Support Files/Pods-CYSwiftKit_Tests/Pods-CYSwiftKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		A5EEC869D127E962FDAB36C0 /* Pods-CYSwiftKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CYSwiftKit_Example.debug.xcconfig"; path = "Target Support Files/Pods-CYSwiftKit_Example/Pods-CYSwiftKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		A95C028AB821535AF9A3ED0D /* CYSwiftKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = CYSwiftKit.podspec; path = ../CYSwiftKit.podspec; sourceTree = "<group>"; };
-		BE4C933BB2B2BA1211A1AEBD /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		A95C028AB821535AF9A3ED0D /* CYSwiftKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = CYSwiftKit.podspec; path = ../CYSwiftKit.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BE4C933BB2B2BA1211A1AEBD /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		D1D6F38A66054D1B1563E337 /* Pods_CYSwiftKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CYSwiftKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF3530B8D2A70DCC0A93013B /* Pods-CYSwiftKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CYSwiftKit_Tests.debug.xcconfig"; path = "Target Support Files/Pods-CYSwiftKit_Tests/Pods-CYSwiftKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -58,14 +59,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		607FACE21AFB9204008FA782 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				1E77E7929E405400218DC794 /* Pods_CYSwiftKit_Tests.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -74,7 +67,6 @@
 			children = (
 				607FACF51AFB993E008FA782 /* Podspec Metadata */,
 				607FACD21AFB9204008FA782 /* Example for CYSwiftKit */,
-				607FACE81AFB9204008FA782 /* Tests */,
 				607FACD11AFB9204008FA782 /* Products */,
 				7BABFA472534494B6631D135 /* Pods */,
 				EFB97986884679BA080407A3 /* Frameworks */,
@@ -85,7 +77,6 @@
 			isa = PBXGroup;
 			children = (
 				607FACD01AFB9204008FA782 /* CYSwiftKit_Example.app */,
-				607FACE51AFB9204008FA782 /* CYSwiftKit_Tests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -95,6 +86,7 @@
 			children = (
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
 				607FACD71AFB9204008FA782 /* ViewController.swift */,
+				4C1F01832B5E6E1C0060351E /* TT.swift */,
 				607FACD91AFB9204008FA782 /* Main.storyboard */,
 				607FACDC1AFB9204008FA782 /* Images.xcassets */,
 				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
@@ -108,23 +100,6 @@
 			isa = PBXGroup;
 			children = (
 				607FACD41AFB9204008FA782 /* Info.plist */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		607FACE81AFB9204008FA782 /* Tests */ = {
-			isa = PBXGroup;
-			children = (
-				607FACEB1AFB9204008FA782 /* Tests.swift */,
-				607FACE91AFB9204008FA782 /* Supporting Files */,
-			);
-			path = Tests;
-			sourceTree = "<group>";
-		};
-		607FACE91AFB9204008FA782 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				607FACEA1AFB9204008FA782 /* Info.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -147,7 +122,6 @@
 				DF3530B8D2A70DCC0A93013B /* Pods-CYSwiftKit_Tests.debug.xcconfig */,
 				7E548C3A1969D4864F145D8E /* Pods-CYSwiftKit_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -182,26 +156,6 @@
 			productReference = 607FACD01AFB9204008FA782 /* CYSwiftKit_Example.app */;
 			productType = "com.apple.product-type.application";
 		};
-		607FACE41AFB9204008FA782 /* CYSwiftKit_Tests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 607FACF21AFB9204008FA782 /* Build configuration list for PBXNativeTarget "CYSwiftKit_Tests" */;
-			buildPhases = (
-				EDC78827ED1BE3B4B9D92BD6 /* [CP] Check Pods Manifest.lock */,
-				607FACE11AFB9204008FA782 /* Sources */,
-				607FACE21AFB9204008FA782 /* Frameworks */,
-				607FACE31AFB9204008FA782 /* Resources */,
-				7CB3C2A41136012CEF0335B2 /* [CP] Embed Pods Frameworks */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				607FACE71AFB9204008FA782 /* PBXTargetDependency */,
-			);
-			name = CYSwiftKit_Tests;
-			productName = Tests;
-			productReference = 607FACE51AFB9204008FA782 /* CYSwiftKit_Tests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -212,14 +166,14 @@
 				LastUpgradeCheck = 0830;
 				ORGANIZATIONNAME = CocoaPods;
 				TargetAttributes = {
+					4C1F01692B5E66D50060351E = {
+						CreatedOnToolsVersion = 15.0.1;
+						DevelopmentTeam = RLU4929WH9;
+						ProvisioningStyle = Automatic;
+					};
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
 						LastSwiftMigration = 0900;
-					};
-					607FACE41AFB9204008FA782 = {
-						CreatedOnToolsVersion = 6.3.1;
-						LastSwiftMigration = 0900;
-						TestTargetID = 607FACCF1AFB9204008FA782;
 					};
 				};
 			};
@@ -228,6 +182,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -237,7 +192,7 @@
 			projectRoot = "";
 			targets = (
 				607FACCF1AFB9204008FA782 /* CYSwiftKit_Example */,
-				607FACE41AFB9204008FA782 /* CYSwiftKit_Tests */,
+				4C1F01692B5E66D50060351E /* package */,
 			);
 		};
 /* End PBXProject section */
@@ -253,13 +208,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		607FACE31AFB9204008FA782 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
@@ -271,10 +219,14 @@
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-CYSwiftKit_Example/Pods-CYSwiftKit_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/CYSwiftKit/CYSwiftKit.framework",
+				"${BUILT_PRODUCTS_DIR}/HandyJSON/HandyJSON.framework",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CYSwiftKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/HandyJSON.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -303,25 +255,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		7CB3C2A41136012CEF0335B2 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-CYSwiftKit_Tests/Pods-CYSwiftKit_Tests-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/FBSnapshotTestCase/FBSnapshotTestCase.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSnapshotTestCase.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CYSwiftKit_Tests/Pods-CYSwiftKit_Tests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		EDC78827ED1BE3B4B9D92BD6 /* [CP] Check Pods Manifest.lock */ = {
+		4C1F016E2B5E66E90060351E /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -329,19 +263,14 @@
 			inputFileListPaths = (
 			);
 			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
 			);
-			name = "[CP] Check Pods Manifest.lock";
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-CYSwiftKit_Tests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
+			shellPath = /Library/Frameworks/Python.framework/Versions/3.7/bin/python3;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n# 使用python脚本来实现，每次更改完之后，自动打包，然后发布到kcspec源的功能\n# 步骤\n# 1. 修改podspec的版本号，自增\n# 2. 提交代码并推送到远程\n# 3. 打tag\n# 4. 发布\nimport sys\nimport os\n\n\n# 更新pod版本，并\ndef changePodSpecVersion(filename):\n    f = open(filename, \"r+\")\n    print (\"文件名为: \", f.name)\n    shouldModifire = '' \n    content = ''\n    str_replace = 's.version          = {0}0'.format(\"'\")\n    print(\"修改的行：\",str)\n    for line in f.readlines():                          #依次读取每行  \n        content = content + line\n        line = line.strip()                             #去掉每行头尾空白\n          \n        if str_replace in line:\n            shouldModifire = line\n    #查找到需要修改的行\n    print('shouldModifire%s'%shouldModifire)\n    items = shouldModifire.split('=')\n    print(items)\n    versions = items[1].split('.')\n    versions_last_length = len(versions[2])\n    versions_last = int(versions[2][:versions_last_length-1])\n    versions_last_int = (versions_last) + 1\n    newVersion = str(versions[0])+'.'+ str(versions[1]) + '.' + str(versions_last_int) + \"'\"\n    shouldReplaceItem = items[0] + '=' + newVersion\n\n    #替换相应的版本号，并写入文件\n    replaceed = content.replace(shouldModifire,shouldReplaceItem)\n    print('修改版本号:' + shouldModifire + '=>' +  shouldReplaceItem)\n    \n    #写入文件\n    f.seek(0)\n    f.truncate()    \n    f.write(replaceed)\n    f.flush()\n    #关闭文件\n    f.close()\n    return newVersion\n\nos.chdir('..')\n# 如果工作区是干净的，退出脚本执行\nfor line in os.popen(\"git status\").readlines():\n    if \"nothing to commit, working tree clean\" in line.strip() :\n        #sys.exit()\n        print(\"nothing to update\")\n\n# 获取xcode环境变量，使脚本更加通用化，可以直接复制到任何一个pod子库里面了\npod_file_name = os.getenv(\"PROJECT_NAME\")\n# 修改版本号\nnewversion = changePodSpecVersion(\"{0}.podspec\".format(pod_file_name))\n\n# 提交代码\nos.system('git add .')\n# 提交并填写信息\nos.system('git commit -a -m \"脚本自动提交\"')\n# 推送\nos.system('git push origin master')\n# 打tag\nos.system('git tag -a {0} -m \"自动tag\"'.format(newversion))\n# 推送tag\nos.system('git push origin {0}'.format(newversion))\n# 发布版本\nos.system('pod repo push kcSpecs {0}.podspec --allow-warnings --verbose --skip-import-validation'.format(pod_file_name))\n# 切换到源目录，并更新\nos.system('pod repo update kcSpecs')\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n";
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -352,26 +281,11 @@
 			files = (
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		607FACE11AFB9204008FA782 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				607FACEC1AFB9204008FA782 /* Tests.swift in Sources */,
+				4C1F01842B5E6E1C0060351E /* TT.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		607FACE71AFB9204008FA782 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 607FACCF1AFB9204008FA782 /* CYSwiftKit_Example */;
-			targetProxy = 607FACE61AFB9204008FA782 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		607FACD91AFB9204008FA782 /* Main.storyboard */ = {
@@ -393,6 +307,24 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		4C1F016B2B5E66D50060351E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RLU4929WH9;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4C1F016C2B5E66D50060351E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RLU4929WH9;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		607FACED1AFB9204008FA782 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -498,6 +430,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = CYSwiftKit/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
@@ -513,6 +446,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = CYSwiftKit/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
@@ -522,49 +456,18 @@
 			};
 			name = Release;
 		};
-		607FACF31AFB9204008FA782 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = DF3530B8D2A70DCC0A93013B /* Pods-CYSwiftKit_Tests.debug.xcconfig */;
-			buildSettings = {
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = Tests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CYSwiftKit_Example.app/CYSwiftKit_Example";
-			};
-			name = Debug;
-		};
-		607FACF41AFB9204008FA782 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7E548C3A1969D4864F145D8E /* Pods-CYSwiftKit_Tests.release.xcconfig */;
-			buildSettings = {
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = Tests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CYSwiftKit_Example.app/CYSwiftKit_Example";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		4C1F016A2B5E66D50060351E /* Build configuration list for PBXAggregateTarget "package" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C1F016B2B5E66D50060351E /* Debug */,
+				4C1F016C2B5E66D50060351E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		607FACCB1AFB9204008FA782 /* Build configuration list for PBXProject "CYSwiftKit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -579,15 +482,6 @@
 			buildConfigurations = (
 				607FACF01AFB9204008FA782 /* Debug */,
 				607FACF11AFB9204008FA782 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		607FACF21AFB9204008FA782 /* Build configuration list for PBXNativeTarget "CYSwiftKit_Tests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				607FACF31AFB9204008FA782 /* Debug */,
-				607FACF41AFB9204008FA782 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

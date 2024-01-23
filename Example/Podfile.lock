@@ -1,0 +1,29 @@
+PODS:
+  - CYSwiftKit (0.1.0):
+    - HandyJSON (~> 5.0.2)
+    - SnapKit (~> 5.0.1)
+  - HandyJSON (5.0.2)
+  - SnapKit (5.0.1)
+
+DEPENDENCIES:
+  - CYSwiftKit (from `../`)
+  - HandyJSON (~> 5.0.2)
+  - SnapKit (~> 5.0.1)
+
+SPEC REPOS:
+  trunk:
+    - HandyJSON
+    - SnapKit
+
+EXTERNAL SOURCES:
+  CYSwiftKit:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  CYSwiftKit: 6afc30a8eae481ae3dec0eb9f14eb28ccf19e558
+  HandyJSON: 9e4e236f5d2dbefad5155a77417bbea438201c03
+  SnapKit: 97b92857e3df3a0c71833cce143274bf6ef8e5eb
+
+PODFILE CHECKSUM: 94a8e6e0af52784a2946c8717c099c2a6337f627
+
+COCOAPODS: 1.14.3

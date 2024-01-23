@@ -1,13 +1,9 @@
 use_frameworks!
 
-platform :ios, '10.0'
+platform :ios, '11.0'
 
 target 'CYSwiftKit_Example' do
+  pod 'SnapKit', '~> 5.0.1'
+  pod 'HandyJSON', '~> 5.0.2'
   pod 'CYSwiftKit', :path => '../'
-
-  target 'CYSwiftKit_Tests' do
-    inherit! :search_paths
-
-    pod 'FBSnapshotTestCase' , '~> 2.1.4'
-  end
 end
