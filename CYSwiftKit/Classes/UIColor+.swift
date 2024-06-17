@@ -8,8 +8,6 @@
 import UIKit
 
 extension UIColor {
-//    static let barTintColor = UIColor(named: "color_background")
-//    static let backgroundColor = UIColor(named: "color_shadow")
     static let barTintColor = UIColor.red
     static let backgroundColor = UIColor.red
     @available(iOS 11.0, *)
