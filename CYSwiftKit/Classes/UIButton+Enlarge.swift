@@ -65,7 +65,7 @@ public extension UIButton {
         }
     }
 
-    func setEnlargeEdge(top: Float, bottom: Float, left: Float, right: Float) -> Void {
+    @objc func setEnlargeEdge(top: Float, bottom: Float, left: Float, right: Float) -> Void {
         self.mc_top = NSNumber.init(value: top)
         self.mc_bottom = NSNumber.init(value: bottom)
         self.mc_left = NSNumber.init(value: left)
